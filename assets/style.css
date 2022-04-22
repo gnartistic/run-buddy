@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 /* body color */
 body {
     color: #39a6b2;
@@ -13,10 +18,7 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-}
-
-header a {
-    color: #fce138;
+    display: inline;
 }
 header a {
     text-decoration: none;
@@ -34,14 +36,24 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
-* {
-    margin: 0;
-    padding: 0;
+/* styles for footer */
+footer {
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
 }
-header h1 {
-    font-weight: bold;
-    font-size: 36px;
-    color: #fce138;
-    margin: 0;
+footer h2 {
     display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: lighter;
+}
+footer a {
+    color: #024e76;
 }
